@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: purple;
+}
+.wraper_app {
+    margin-top: 100px;
+}
+
+.wraper_app h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:aqua;
+}
+
+.wraper_app h2 span {
+    color: yellow;
+}
+
+.wraper_app h2 .localInfo {
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.wraper {
+    background-color: rgb(0, 0, 0);
+    width: 390px;
+    display: flex;
+    margin: auto;
+    height: 381px;
+    padding: 0 5px 0 0px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 2px aqua;
+}
+
+
+.wraper .blocks_row {
+    margin-left: 5px;
+    background-color: rgb(255, 255, 255, 0.1);
+    cursor: pointer;
+    width: 50px;
+}
+
+.wraper .blocks_row:hover {
+    background-color: rgb(255, 255, 255, 0.3);
+
+}
+
+.next {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.next span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.block {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.blocks_row .block_new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 330px;
+}
+
+.block_new {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.blocks_row .block_activite_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: -20px;
+    transition: margin-top eas5 0.5s;
+}
+
+
+
+.playAgain {
+    margin-top: 20px;
+    padding: 5px 30px 5px 30px;
+    box-shadow: 0 0 0 2px rgb(34, 139, 34);
+    color: white;
+    cursor: pointer;
+}
+
+.playAgain:hover {
+    margin-top: 20px;
+    padding: 5px 30px 5px 30px;
+    box-shadow: 0 0 2px 3px rgb(34, 139, 34);
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.blocks_row .block_activite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 4px;
+    transition: margin-top eas5 0.5s;
+}
+
+.theEnd {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: auto;
+}
+
+.theEnd .theEndGame {
+    font-size: 30px;
+}
+
+.theEnd .points {
+    color: yellow;
+    font-size: large;
+}
+
+.theEnd .record {
+    color: rgb(192, 192, 93);
+    font-size: large;
+}
+
+.five {
+    background-color: orange;
+    transition: all ease-in 0.5s;
+}
+
+.ten {
+    background-color:rgb(231, 133, 150);
+    transition: all ease-in 0.5s;
+}
+
+.twenty {
+    background-color:aqua;
+    transition: all ease-in 0.5s;
+}
+
+.fourty {
+    background-color: rgb(233, 255, 32);
+    transition: all ease-in 0.5s;
+}
+
+.sixty {
+    background-color: rgb(87, 95, 204);
+    transition: all ease-in 0.5s;
+}
+
+.twohalf {
+    background-color:darkcyan;
+    transition: all ease-in 0.5s;
+}
+
+.eighty {
+    background-color: #fff;
+    transition: all ease-in 0.5s;
+}
+
+.onehsixty {
+    background-color:rgb(255, 0, 0);
+    transition: all ease-in 0.5s;
+}
+
+.onehfourty {
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.improvisation {
+    margin-top: -20px;
+}
+
+.boom {
+    width: 50px;
+    height: 50px;
+}
